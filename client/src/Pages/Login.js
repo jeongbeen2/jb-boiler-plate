@@ -9,7 +9,7 @@ export default function Login() {
   const [password, setPassword] = useState('');
   const [username, setUsername] = useState('');
 
-  const loginHandler = async (e) => {
+  const loginHandler = async () => {
     await axios({
       method: 'post',
       url: 'https://localhost:4000/login',
