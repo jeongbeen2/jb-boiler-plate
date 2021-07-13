@@ -1,3 +1,4 @@
+const e = require('cors');
 const jwt = require('jsonwebtoken');
 const { users } = require('../../models');
 

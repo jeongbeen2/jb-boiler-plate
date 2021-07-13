@@ -24,7 +24,7 @@ module.exports = async (req, res) => {
     });
     res
       .status(200)
-      .cookie('accessToken', accessToken, {
+      .cookie('refreshToken', refreshToken, {
         Secure: true,
       })
       .send({
